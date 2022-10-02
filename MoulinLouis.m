@@ -1,8 +1,20 @@
-  #import <Foundation/Foundation.h>
-  // Hello World in Objective-C
-  int main(int argc, const char * argv[]) {
-      @autoreleasepool {
-          NSLog(@"Hello World!");
-      }
-      return 0;
-  }
+#import <Foundation/Foundation.h>
+
+@interface SampleClass:NSObject
+- (void)sampleMethod;
+@end
+
+@implementation SampleClass
+
+- (void)sampleMethod {
+   NSLog(@"Hello, World! \n");
+}
+
+@end
+
+int main() {
+   /* Hello World in Objective - C */
+   SampleClass *sampleClass = [[SampleClass alloc]init];
+   [sampleClass sampleMethod];
+   return 0;
+}
