@@ -1,6 +1,6 @@
 #include<stdio.h> 
 #include<math.h> 
-int main(void) 
+int main() 
 {     
 double sinValue,X;     
 printf("please enter the value of calculate sine:");  
